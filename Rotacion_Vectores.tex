@@ -49,44 +49,75 @@
 
 \abstract
 %
-En este documento se presenta la formulación mediante la cual se hace posible describir un vector que se encuentra descrito en un sistema de referencia $x-y-z$ en otro sistema de referencia $x'-y'-z'$.
+En este documento se presenta la matriz de transfomación para expresar un vector que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ en otro sistema de referencia cartesiano $x'-y'-z'$.
+%
+%En matemáticas las rotaciones son transformaciones lineales que conservan las normas en espacios vectoriales en los que se ha definido una operación de producto interior. La matriz de transformación tiene la propiedad de ser una matriz unitaria, es decir, es ortogonal y su determinante es 1. Sea un vector \scriptstyle \mathbf A expresado en un sistema de coordenadas cartesianas (x, y, z) con una base vectorial \mathcal{B} asociada definida por los versores \left( \mathbf i, \mathbf j,\mathbf k\, \right); esto es,
 %
 \section{Planteamiento del problema}
 %
-En la figura \ref{planteamiento} se presenta la descripción gráfica del problema, el cual corresponde en encontrar la relación matemática para expresar un vector que se encuentra descrito en el sistema de referencia $x-y$ al sistema de referencia $x'-y'$. En esta figura se presentan los ángulos entre cada uno de los ejes de los sistemas de referencia y los vectores unitarios base de cada sistema de referencia.\\
+En las figuras \ref{planteamiento} y \ref{planteamiento3d} se presenta la descripción gráfica del problema, en el cual se pretende encontrar la relación matemática para expresar un vector que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ al sistema de referencia $x'-y'-z'$. La figura \ref{planteamiento} corresponde al caso bidimensional y la figura \ref{planteamiento3d} al caso tridimensional.\\
 %
 \begin{figure}[h]
+%	\centering
+%	\includegraphics[width=15cm]{img/Planteamiento.pdf}
+%	\caption{Ángulos entre los ejes de ambos sistemas de referencia.}
+%	\label{planteamiento}
+%	
 	\centering
-	\includegraphics[width=8cm]{img/Planteamiento.pdf}
-	\caption{Ángulos entre los ejes de ambos sistemas de referencia.}
-	\label{planteamiento}
+	\begin{subfigure}[l]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Planteamiento.pdf}
+		\caption{Problema 2D.}
+		\label{planteamiento}
+	\end{subfigure}
+	\hspace{.5 cm}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Planteamiento3D.pdf}
+		\caption{Problema 3D.}
+		\label{planteamiento3d}
+	\end{subfigure}	
+	\caption{}
 \end{figure}
-%
-\begin{itemize}
-	\item $\theta_{x-x'}$: Ángulo entre el eje $x$ y $x'$
-	\item $\theta_{x-y'}$: Ángulo entre el eje $x$ y $y'$
-	\item $\theta_{y-x'}$: Ángulo entre el eje $y$ y $x'$
-	\item $\theta_{y-y'}$: Ángulo entre el eje $y$ y $y'$
-	\item $\hat{i}$, $\hat{j}$: Vectores unitarios bases del sistema de referencia $x-y$.
-	\item $\hat{i}'$, $\hat{j}'$: Vectores unitarios bases del sistema de referencia $x'-y'$.
-\end{itemize}
 %
 %
 \section{Desarrollo del problema $2D$}
 %
-En la figura \ref{vector1} y \ref{vector2} se presenta el vector $\overset{\rightarrow}{V}$ en los sistemas de referencia $x-y$ y $x'-y'$ respectivamente.\\
+%
+En la figura \ref{direc2d} se muestran los cosenos directores entre el sistema de referencia $x-y$ y el sistema de referencia $x'-y'$ junto con los vectores unitarios de cada base ortogonal $\left( \hat{i}, \hat{j} \right)$ y $\left( \hat{i}', \hat{j}' \right)$.\\\\
 %
 %
 \begin{figure}[h]
 	\centering
-	\begin{subfigure}[l]{0.450\textwidth}
+	\includegraphics[width=15cm]{img/Directores2D.pdf}
+	\caption{Ángulos entre los ejes de ambos sistemas de referencia.}
+	\label{direc2d}
+\end{figure}
+
+Donde:
+%
+\begin{itemize}
+	\item[$\rightarrow$] \begin{large}$\theta_{x-x'}$\end{large}: Ángulo entre el eje \begin{large}$x$\end{large} y el eje \begin{large}$x'$\end{large}.
+	\item[$\rightarrow$] \begin{large}$\theta_{x-y'}$\end{large}: Ángulo entre el eje \begin{large}$x$\end{large} y el eje \begin{large}$y'$\end{large}.
+	\item[$\rightarrow$] \begin{large}$\theta_{y-x'}$\end{large}: Ángulo entre el eje \begin{large}$y$\end{large} y el eje \begin{large}$x'$\end{large}.
+	\item[$\rightarrow$] \begin{large}$\theta_{y-y'}$\end{large}: Ángulo entre el eje \begin{large}$y$\end{large} y el eje \begin{large}$y'$\end{large}.
+	\item[$\rightarrow$] \begin{large}$\hat{i}$, $\hat{j}$\end{large}: Vectores unitarios bases del sistema de referencia \begin{large}$x-y$\end{large}.
+	\item[$\rightarrow$] \begin{large}$\hat{i}'$, $\hat{j}'$\end{large}: Vectores unitarios bases del sistema de referencia \begin{large}$x'-y'$\end{large}.\\\\
+\end{itemize}
+%
+%
+El vector a transformar de sistema de referencia cartesiano lo denominaremos $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$, figura \ref{vector1} y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$, figura \ref{vector2}.\\\\
+%
+%
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[l]{0.45\textwidth}
 		\includegraphics[width=\textwidth]{img/Vector1.pdf}
 		\caption{Vector $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$.}
 		\label{vector1}
 	\end{subfigure}
 	\hspace{.5 cm}
 	%
-	\begin{subfigure}[r]{0.450\textwidth}
+	\begin{subfigure}[r]{0.45\textwidth}
 		\includegraphics[width=\textwidth]{img/Vector2.pdf}
 		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
 		\label{vector2}
@@ -94,22 +125,43 @@ En la figura \ref{vector1} y \ref{vector2} se presenta el vector $\overset{\righ
 	\caption{}
 \end{figure}
 %
+
+En la figura \ref{vector1} se presenta el vector $\overset{\rightarrow}{V}$ en el sistema de referencia cartesiano $x-y$ y en la figura \ref{vector2} se presenta el vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$. Adicionalmente, en la figuras \ref{vector1comp} y \ref{vector2comp} se presenta el vector a transformar junto con su proyección sobre cada uno de los ejes del sistema de referencia.\\\\
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[l]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector1Componentes.pdf}
+		\caption{Vector $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$.}
+		\label{vector1comp}
+	\end{subfigure}
+	\hspace{.5 cm}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector2Componentes.pdf}
+		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
+		\label{vector2comp}
+	\end{subfigure}	
+	\caption{}
+\end{figure}
 %
-El vector $\overset{\rightarrow}{V}$ y $\overset{\rightarrow}{V'}$ son el mismo en ambos sistemas de referencia, su magnitud y significado físico no varía por tener diferente sistema de referencia, lo único diferente entre estos es la forma de representarlos en terminos de sus componentes. Lo cual se puede escribir matemáticamente como:
+%
+El vector $\overset{\rightarrow}{V}$ y el vector $\overset{\rightarrow}{V'}$ son equivalentes, iguales, en ambos sistemas de referencia, su magnitud y significado físico no varía por tener diferente sistema de referencia, lo único diferente entre estos es la forma de representarlos en terminos de sus componentes. Lo cual se puede escribir matemáticamente como:
 %
 \begin{align}
 	\overset{\rightarrow}{V} = \overset{\rightarrow}{V'}
 	\label{uno}
 \end{align}
 %
-Dónde:
+
+Es posible expresar el vector en cada base ortogonal a partir de sus componentes escalares (figura \ref{vector1comp} y \ref{vector2comp}), como se muestra en las ecuaciones \ref{dos} y \ref{tres}.
 %
 \begin{align}
 	\overset{\rightarrow}{V} = V_x \hat{i} + V_y \hat{j} \label{dos}\\
 	\overset{\rightarrow}{V'} = V_{x'} \hat{i'} + V_{y'} \hat{j'} \label{tres}
 \end{align}
-%
-Ahora, expresamos el vector unitario $\hat{i}$ en términos de los vectores unitarios $\hat{i}'$ y $\hat{j}'$, luego hacemos lo mismo con el vector unitario $\hat{j}$.
+
+Ahora, expresando el vector unitario $\hat{i}$ en términos de los vectores unitarios $\hat{i}'$ y $\hat{j}'$. Se procede de la misma manera con el vector unitario $\hat{j}$.
 %
 \begin{align}
 	\hat{i} = \hat{i}' \cos \theta_{x-x'} +  \hat{j}' \cos \theta_{x-y'} \label{cuatro}\\
@@ -128,7 +180,7 @@ Reorganizando los términos:
 	\overset{\rightarrow}{V} = \left( V_x \cos \theta_{x-x'} + V_y \cos \theta_{y-x'} \right) \hat{i}'+ \left( V_x \cos \theta_{x-y'} + V_y \cos \theta_{y-y'} \right) \hat{j}' \label{seis}
 \end{align}
 %
-Ahora reemplazamos las ecuaciones \ref{seis} y \ref{tres} en la ecuación \ref{uno}:
+Ahora reemplazando las ecuaciones \ref{seis} y \ref{tres} en la ecuación \ref{uno}:
 %
 \begin{align}
 	\left( V_x \cos \theta_{x-x'} + V_y \cos \theta_{y-x'} \right) \hat{i}'+ \left( V_x \cos \theta_{x-y'} + V_y \cos \theta_{y-y'} \right) \hat{j}' = V_{x'} \hat{i}' + V_{y'} \hat{j}' \label{siete}
@@ -228,28 +280,98 @@ Ya que $\left[ T \right]$ es una matriz de transformación entre dos sistemas de
 La ecuación \ref{doce} nos permite expresar el vector $\overset{\rightarrow}{V'}$ del sistema de referencia $x'-y'$ en el sistema de referencia $x-y$.\\\\
 %
 {\bf Nota importante: } Se utiliza la función trigonométrica {\it{Coseno}} pues esta es una función par y por ende no importa el signo del ángulo entre los ejes.\\
-$\cos \left( -\theta \right) = \cos \left( \theta \right)$
-%
-%
+$\cos \left( -\theta \right) = \cos \left( \theta \right)$.\\\\
+
+
 \section{Desarrollo del problema $3D$}
+%
+En la figura \ref{directores} se presenta el vector a transformar, denominado $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y-z$ y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'-z'$.\\
+%
+En las figuras \ref{vector13d} y \ref{vector23d} se presenta dicho vector en cada sistema de referencia. En las figuras \ref{vector1comp3d} y \ref{vector2comp3d} se presenta el vector en cada sistema de referencia junto con sus proyecciones escalares sobre los ejes de cada sistema de referencia.\\\\
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[l]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector13D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$.}
+		\label{vector13d}
+	\end{subfigure}
+	\hspace{.5 cm}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector23D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
+		\label{vector23d}
+	\end{subfigure}	
+%
+	\begin{subfigure}[l]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector1Componentes3D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$.}
+		\label{vector1comp3d}
+	\end{subfigure}
+	\hspace{.5 cm}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/Vector2Componentes3D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
+		\label{vector2comp3d}
+	\end{subfigure}	
+	\caption{}
+	\label{directores}
+\end{figure}
+%
+%
+%
+%
+%
+En la figura \ref{directorestodos} se presentan los ángulos entre los ejes del sistema de referencia $x-y-z$ y el sistema de referencia $x'-y'-z'$ , cosenos directores, junto con los vectores unitarios de cada base ortogonal $\left( \hat{i}, \hat{j}, \hat{k} \right)$ y $\left( \hat{i}', \hat{j}', \hat{k}' \right)$.\\\\
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[l]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/CosenosX3D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$.}
+		\label{cosx3d}
+	\end{subfigure}
+	\hspace{.5 cm}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/CosenosY3D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
+		\label{cosy3d}
+	\end{subfigure}
+	%
+	\begin{subfigure}[r]{0.450\textwidth}
+		\includegraphics[width=\textwidth]{img/CosenosZ3D.pdf}
+		\caption{Vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$.}
+		\label{cosz3d}
+	\end{subfigure}	
+	\caption{}
+	\label{directorestodos}
+\end{figure}
+
+%
+%
+%
+%
 %
 El caso tridimensional $(3D)$ no es nada más que una extensión del caso bidimensional $(2D)$, por lo cual en este documento solo se muestra que se le debe adicionar a las ecuaciones descritas en el caso $(2D)$.
 %
 \begin{itemize}
-	\item $\theta_{x-x'}$: Ángulo entre el eje $x$ y $x'$
-	\item $\theta_{x-y'}$: Ángulo entre el eje $x$ y $y'$
-	\item $\theta_{x-z'}$: Ángulo entre el eje $x$ y $z'$
-	\item $\theta_{y-x'}$: Ángulo entre el eje $y$ y $x'$
-	\item $\theta_{y-y'}$: Ángulo entre el eje $y$ y $y'$
-	\item $\theta_{y-z'}$: Ángulo entre el eje $y$ y $z'$
-	\item $\theta_{z-x'}$: Ángulo entre el eje $z$ y $x'$
-	\item $\theta_{z-y'}$: Ángulo entre el eje $z$ y $y'$
-	\item $\theta_{z-z'}$: Ángulo entre el eje $z$ y $z'$
-	\item $\hat{i}$, $\hat{j}$, $\hat{k}$: Vectores unitarios bases del sistema de referencia $x-y-z$.
-	\item $\hat{i}'$, $\hat{j}'$, $\hat{k}'$: Vectores unitarios bases del sistema de referencia $x'-y'-z'$.
+	\item \begin{large}$\theta_{x-x'}$\end{large}: Ángulo entre el eje $x$ y el eje $x'$
+	\item \begin{large}$\theta_{x-y'}$\end{large}: Ángulo entre el eje $x$ y el eje $y'$
+	\item \begin{large}$\theta_{x-z'}$\end{large}: Ángulo entre el eje $x$ y el eje $z'$
+	\item \begin{large}$\theta_{y-x'}$\end{large}: Ángulo entre el eje $y$ y el eje $x'$
+	\item \begin{large}$\theta_{y-y'}$\end{large}: Ángulo entre el eje $y$ y el eje $y'$
+	\item \begin{large}$\theta_{y-z'}$\end{large}: Ángulo entre el eje $y$ y el eje $z'$
+	\item \begin{large}$\theta_{z-x'}$\end{large}: Ángulo entre el eje $z$ y el eje $x'$
+	\item \begin{large}$\theta_{z-y'}$\end{large}: Ángulo entre el eje $z$ y el eje $y'$
+	\item \begin{large}$\theta_{z-z'}$\end{large}: Ángulo entre el eje $z$ y el eje $z'$
+	\item \begin{large}$\hat{i}$, $\hat{j}$, $\hat{k}$\end{large}: Vectores unitarios bases del sistema de referencia $x-y-z$.
+	\item \begin{large}$\hat{i}'$, $\hat{j}'$, $\hat{k}'$\end{large}: Vectores unitarios bases del sistema de referencia $x'-y'-z'$.
 \end{itemize}
 %
-Reescribimos la ecuación \ref{diez}:
+Reescribiendo la ecuación \ref{diez}:
 %
 \begin{eqnarray}
 		\left[ \begin{array}{c} V_{x'} \\
