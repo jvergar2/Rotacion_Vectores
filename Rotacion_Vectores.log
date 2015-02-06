@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 FEB 2015 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 FEB 2015 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,20 +762,20 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `Rotacion_Vectores.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -815,8 +815,8 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
@@ -858,7 +858,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 29.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -868,50 +868,45 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./Rotacion_Vectores.out) (./Rotacion_Vectores.out)
 \@outlinefile=\write3
 \openout3 = `Rotacion_Vectores.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (43.24727pt too wide) in paragraph at lines 46--46
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 57.
 
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./img/Planteamiento.pdf): PDF inclus
@@ -920,7 +915,7 @@ ion: found PDF version <1.6>, but at most version <1.5> allowed
 File: img/Planteamiento.pdf Graphic file (type pdf)
 
 <use img/Planteamiento.pdf>
-Package pdftex.def Info: img/Planteamiento.pdf used on input line 68.
+Package pdftex.def Info: img/Planteamiento.pdf used on input line 69.
 (pdftex.def)             Requested size: 199.60895pt x 106.61726pt.
 
 
@@ -930,28 +925,28 @@ usion: found PDF version <1.6>, but at most version <1.5> allowed
 File: img/Planteamiento3D.pdf Graphic file (type pdf)
 
 <use img/Planteamiento3D.pdf>
-Package pdftex.def Info: img/Planteamiento3D.pdf used on input line 75.
+Package pdftex.def Info: img/Planteamiento3D.pdf used on input line 76.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 84.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 83.
+(hyperref)                removing `math shift' on input line 84.
 
 
 
@@ -961,22 +956,22 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 File: img/Directores2D.pdf Graphic file (type pdf)
 
 <use img/Directores2D.pdf>
-Package pdftex.def Info: img/Directores2D.pdf used on input line 90.
+Package pdftex.def Info: img/Directores2D.pdf used on input line 91.
 (pdftex.def)             Requested size: 426.79134pt x 227.97237pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
 
  []
 
 <img/logo.pdf, id=22, 220.825pt x 90.3375pt>
 File: img/logo.pdf Graphic file (type pdf)
  <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 93.
+Package pdftex.def Info: img/logo.pdf used on input line 94.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -990,39 +985,39 @@ Package Fancyhdr Warning: \headheight is too small (20.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 94.
 [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/l
 ogo.pdf> <./img/Planteamiento.pdf> <./img/Planteamiento3D.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
@@ -1033,7 +1028,7 @@ ound PDF version <1.6>, but at most version <1.5> allowed
 <img/Vector1.pdf, id=62, 426.59375pt x 227.85126pt>
 File: img/Vector1.pdf Graphic file (type pdf)
  <use img/Vector1.pdf>
-Package pdftex.def Info: img/Vector1.pdf used on input line 113.
+Package pdftex.def Info: img/Vector1.pdf used on input line 114.
 (pdftex.def)             Requested size: 199.60895pt x 106.61726pt.
 
 
@@ -1042,7 +1037,7 @@ ound PDF version <1.6>, but at most version <1.5> allowed
 <img/Vector2.pdf, id=63, 426.59375pt x 227.85126pt>
 File: img/Vector2.pdf Graphic file (type pdf)
  <use img/Vector2.pdf>
-Package pdftex.def Info: img/Vector2.pdf used on input line 120.
+Package pdftex.def Info: img/Vector2.pdf used on input line 121.
 (pdftex.def)             Requested size: 199.60895pt x 106.61726pt.
 
 
@@ -1052,7 +1047,7 @@ nclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: img/Vector1Componentes.pdf Graphic file (type pdf)
 
 <use img/Vector1Componentes.pdf>
-Package pdftex.def Info: img/Vector1Componentes.pdf used on input line 134.
+Package pdftex.def Info: img/Vector1Componentes.pdf used on input line 135.
 (pdftex.def)             Requested size: 199.60895pt x 106.61726pt.
 
 
@@ -1062,21 +1057,21 @@ nclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: img/Vector2Componentes.pdf Graphic file (type pdf)
 
 <use img/Vector2Componentes.pdf>
-Package pdftex.def Info: img/Vector2Componentes.pdf used on input line 141.
+Package pdftex.def Info: img/Vector2Componentes.pdf used on input line 142.
 (pdftex.def)             Requested size: 199.60895pt x 106.61726pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--146
+Underfull \hbox (badness 10000) in paragraph at lines 108--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--146
+Underfull \hbox (badness 10000) in paragraph at lines 108--147
 
  []
 
 File: img/logo.pdf Graphic file (type pdf)
 <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 146.
+Package pdftex.def Info: img/logo.pdf used on input line 147.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1084,33 +1079,33 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 [2 <./img/Directores2D.pdf>]
 File: img/logo.pdf Graphic file (type pdf)
  <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 176.
+Package pdftex.def Info: img/logo.pdf used on input line 177.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1118,43 +1113,43 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 [3 <./img/Vector1.pdf> <./img/Vector2.pdf> <./img/Vector1Componentes.pdf> <./im
 g/Vector2Componentes.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
 File: img/logo.pdf Graphic file (type pdf)
 <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 254.
+Package pdftex.def Info: img/logo.pdf used on input line 255.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1162,82 +1157,82 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 255.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 256--263
+Underfull \hbox (badness 10000) in paragraph at lines 257--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--263
+Underfull \hbox (badness 10000) in paragraph at lines 257--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 287.
+(babel)             in language  on input line 288.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 288.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 288.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 File: img/logo.pdf Graphic file (type pdf)
 <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 292.
+Package pdftex.def Info: img/logo.pdf used on input line 293.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1245,29 +1240,29 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 [5]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./img/Vector13D.pdf): PDF inclusion:
@@ -1275,7 +1270,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/Vector13D.pdf): PDF inclusion:
 <img/Vector13D.pdf, id=154, 426.59375pt x 299.1175pt>
 File: img/Vector13D.pdf Graphic file (type pdf)
  <use img/Vector13D.pdf>
-Package pdftex.def Info: img/Vector13D.pdf used on input line 296.
+Package pdftex.def Info: img/Vector13D.pdf used on input line 297.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 
@@ -1284,7 +1279,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/Vector23D.pdf): PDF inclusion:
 <img/Vector23D.pdf, id=155, 426.59375pt x 299.1175pt>
 File: img/Vector23D.pdf Graphic file (type pdf)
  <use img/Vector23D.pdf>
-Package pdftex.def Info: img/Vector23D.pdf used on input line 303.
+Package pdftex.def Info: img/Vector23D.pdf used on input line 304.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 
@@ -1294,7 +1289,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/Vector1Componentes3D.pdf): PDF
 File: img/Vector1Componentes3D.pdf Graphic file (type pdf)
 
 <use img/Vector1Componentes3D.pdf>
-Package pdftex.def Info: img/Vector1Componentes3D.pdf used on input line 309.
+Package pdftex.def Info: img/Vector1Componentes3D.pdf used on input line 310.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 
@@ -1304,15 +1299,15 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/Vector2Componentes3D.pdf): PDF
 File: img/Vector2Componentes3D.pdf Graphic file (type pdf)
 
 <use img/Vector2Componentes3D.pdf>
-Package pdftex.def Info: img/Vector2Componentes3D.pdf used on input line 316.
+Package pdftex.def Info: img/Vector2Componentes3D.pdf used on input line 317.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
@@ -1324,7 +1319,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/CosenosX3D.pdf): PDF inclusion
 File: img/CosenosX3D.pdf Graphic file (type pdf)
 
 <use img/CosenosX3D.pdf>
-Package pdftex.def Info: img/CosenosX3D.pdf used on input line 333.
+Package pdftex.def Info: img/CosenosX3D.pdf used on input line 334.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 
@@ -1334,7 +1329,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/CosenosY3D.pdf): PDF inclusion
 File: img/CosenosY3D.pdf Graphic file (type pdf)
 
 <use img/CosenosY3D.pdf>
-Package pdftex.def Info: img/CosenosY3D.pdf used on input line 340.
+Package pdftex.def Info: img/CosenosY3D.pdf used on input line 341.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 
@@ -1344,7 +1339,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./img/CosenosZ3D.pdf): PDF inclusion
 File: img/CosenosZ3D.pdf Graphic file (type pdf)
 
 <use img/CosenosZ3D.pdf>
-Package pdftex.def Info: img/CosenosZ3D.pdf used on input line 346.
+Package pdftex.def Info: img/CosenosZ3D.pdf used on input line 347.
 (pdftex.def)             Requested size: 199.60895pt x 139.96451pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1352,7 +1347,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: img/logo.pdf Graphic file (type pdf)
 
 <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 353.
+Package pdftex.def Info: img/logo.pdf used on input line 354.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1360,34 +1355,34 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 354.
 [6 <./img/Vector13D.pdf> <./img/Vector23D.pdf> <./img/Vector1Componentes3D.pdf>
  <./img/Vector2Componentes3D.pdf>]
 File: img/logo.pdf Graphic file (type pdf)
  <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 388.
+Package pdftex.def Info: img/logo.pdf used on input line 389.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1395,38 +1390,38 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 389.
 [7 <./img/CosenosX3D.pdf> <./img/CosenosY3D.pdf> <./img/CosenosZ3D.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 398--404
+Underfull \hbox (badness 10000) in paragraph at lines 399--405
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
 File: img/logo.pdf Graphic file (type pdf)
 <use img/logo.pdf>
-Package pdftex.def Info: img/logo.pdf used on input line 410.
+Package pdftex.def Info: img/logo.pdf used on input line 411.
 (pdftex.def)             Requested size: 108.405pt x 44.34708pt.
 
 Overfull \hbox (23.04674pt too wide) has occurred while \output is active
@@ -1434,45 +1429,49 @@ Overfull \hbox (23.04674pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 411.
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
  (./Rotacion_Vectores.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
 Package rerunfilecheck Info: File `Rotacion_Vectores.out' has not changed.
 (rerunfilecheck)             Checksum: D71C26086961D12CCFDEC7C98173D43A;180.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
  ) 
 Here is how much of TeX's memory you used:
  10983 strings out of 493315
  170856 string characters out of 6137904
- 295714 words of memory out of 5000000
+ 295745 words of memory out of 5000000
  14259 multiletter control sequences out of 15000+600000
  17744 words of font info for 69 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1492,7 +1491,7 @@ live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Rotacion_Vectores.pdf (8 pages, 246495 bytes).
+Output written on Rotacion_Vectores.pdf (8 pages, 246702 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  237 compressed objects within 3 object streams
