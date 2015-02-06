@@ -45,19 +45,19 @@
 \maketitle
 
 
-{\bf Palabras clave:} Vectores, Rotación, Mecánica del Medio Continuo.\\\\
+{\bf Palabras clave:} Vector, Rotación,Matriz de transformación\\\\
 
 \abstract
 %
-En este documento se presenta la matriz de transfomación para expresar un vector que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ en otro sistema de referencia cartesiano $x'-y'-z'$.
+El procedimiento para expresar un vector que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ en otro sistema de referencia cartesiano $x'-y'-z'$ es presentado. Como base del procedimiento se explica como se obtiene la matriz de transfomación. 
 %
 %En matemáticas las rotaciones son transformaciones lineales que conservan las normas en espacios vectoriales en los que se ha definido una operación de producto interior. La matriz de transformación tiene la propiedad de ser una matriz unitaria, es decir, es ortogonal y su determinante es 1. Sea un vector \scriptstyle \mathbf A expresado en un sistema de coordenadas cartesianas (x, y, z) con una base vectorial \mathcal{B} asociada definida por los versores \left( \mathbf i, \mathbf j,\mathbf k\, \right); esto es,
 %
 \section{Planteamiento del problema}
 %
-En las figuras \ref{planteamiento} y \ref{planteamiento3d} se presenta la descripción gráfica del problema, en el cual se pretende encontrar la relación matemática para expresar un vector que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ al sistema de referencia $x'-y'-z'$. La figura \ref{planteamiento} corresponde al caso bidimensional y la figura \ref{planteamiento3d} al caso tridimensional.\\
+Lo que se pretende encontrar es una relación matemática que permita  expresar un vector  $\overset{\rightarrow}{V}$ que se encuentra descrito en el sistema de referencia cartesiano $x-y-z$ en otro sistema de referencia cartesiano $x'-y'-z'$. En las figuras \ref{planteamiento} y \ref{planteamiento3d} se presenta la descripción gráfica del problema para el caso bidimensional y el caso tridimensional respectivamente.  
 %
-\begin{figure}[h]
+\begin{figure}[H]
 %	\centering
 %	\includegraphics[width=15cm]{img/Planteamiento.pdf}
 %	\caption{Ángulos entre los ejes de ambos sistemas de referencia.}
@@ -82,11 +82,10 @@ En las figuras \ref{planteamiento} y \ref{planteamiento3d} se presenta la descri
 %
 \section{Desarrollo del problema $2D$}
 %
+Para dar solución al problema basta conocer las componentes del vector en el sistema de referencia original $x-y$ y los cosenos directores  (cosenos de los ángulos) entre el sistema de referencia $x-y$ y el sistema de referencia $x'-y'$. En la figura \ref{direc2d} se muestran los ángulos entre el sistema de referencia $x-y$ y el sistema de referencia $x'-y'$ junto con los vectores unitarios de cada base ortonormal $\left( \hat{i}, \hat{j} \right)$ y $\left( \hat{i}', \hat{j}' \right)$.\\\\
 %
-En la figura \ref{direc2d} se muestran los cosenos directores entre el sistema de referencia $x-y$ y el sistema de referencia $x'-y'$ junto con los vectores unitarios de cada base ortogonal $\left( \hat{i}, \hat{j} \right)$ y $\left( \hat{i}', \hat{j}' \right)$.\\\\
 %
-%
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{img/Directores2D.pdf}
 	\caption{Ángulos entre los ejes de ambos sistemas de referencia.}
@@ -105,10 +104,10 @@ Donde:
 \end{itemize}
 %
 %
-El vector a transformar de sistema de referencia cartesiano lo denominaremos $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$, figura \ref{vector1} y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$, figura \ref{vector2}.\\\\
+El vector a transformar de sistema de referencia cartesiano lo denominaremos $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y$ y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$. En las figuras \ref{vector1} y  \ref{vector2} se muestra cada vector en su base vectorial y en las  figuras \ref{vector1comp} y \ref{vector2comp} se presenta el vector a transformar junto con su proyección sobre cada uno de los ejes del sistema de referencia.\\\\
 %
 %
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}[l]{0.45\textwidth}
 		\includegraphics[width=\textwidth]{img/Vector1.pdf}
@@ -126,9 +125,9 @@ El vector a transformar de sistema de referencia cartesiano lo denominaremos $\o
 \end{figure}
 %
 
-En la figura \ref{vector1} se presenta el vector $\overset{\rightarrow}{V}$ en el sistema de referencia cartesiano $x-y$ y en la figura \ref{vector2} se presenta el vector $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'$. Adicionalmente, en la figuras \ref{vector1comp} y \ref{vector2comp} se presenta el vector a transformar junto con su proyección sobre cada uno de los ejes del sistema de referencia.\\\\
+%Adicionalmente, en la figuras \ref{vector1comp} y \ref{vector2comp} se presenta el vector a transformar junto con su proyección sobre cada uno de los ejes del sistema de referencia.\\\\
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}[l]{0.450\textwidth}
 		\includegraphics[width=\textwidth]{img/Vector1Componentes.pdf}
@@ -146,55 +145,57 @@ En la figura \ref{vector1} se presenta el vector $\overset{\rightarrow}{V}$ en e
 \end{figure}
 %
 %
-El vector $\overset{\rightarrow}{V}$ y el vector $\overset{\rightarrow}{V'}$ son equivalentes, iguales, en ambos sistemas de referencia, su magnitud y significado físico no varía por tener diferente sistema de referencia, lo único diferente entre estos es la forma de representarlos en terminos de sus componentes. Lo cual se puede escribir matemáticamente como:
+El vector $\overset{\rightarrow}{V}$ y el vector $\overset{\rightarrow}{V'}$ son equivalentes, (iguales) en ambos sistemas de referencia, debido a que la magnitud y significado físico no varía por tener diferente sistema de referencia. Lo único diferente entre estos es la forma de representarlos en términos de sus componentes. Por esta razón se puede decir que:
 %
 \begin{align}
 	\overset{\rightarrow}{V} = \overset{\rightarrow}{V'}
 	\label{uno}
 \end{align}
 %
+Si se escribe el vector $\overset{\rightarrow}{V}$  y  $\overset{\rightarrow}{V'}$ y en términos de sus compenentes escalares (figura \ref{vector1comp} y \ref{vector2comp}), se tiene: 
 
-Es posible expresar el vector en cada base ortogonal a partir de sus componentes escalares (figura \ref{vector1comp} y \ref{vector2comp}), como se muestra en las ecuaciones \ref{dos} y \ref{tres}.
+%Es posible expresar el vector en cada base ortogonal a partir de sus componentes escalares (figura \ref{vector1comp} y \ref{vector2comp}), como se muestra en las ecuaciones \ref{dos} y \ref{tres}.
 %
 \begin{align}
-	\overset{\rightarrow}{V} = V_x \hat{i} + V_y \hat{j} \label{dos}\\
+	\overset{\rightarrow}{V} = V_x \hat{i} + V_y \hat{j} \label{dos}  \\
 	\overset{\rightarrow}{V'} = V_{x'} \hat{i'} + V_{y'} \hat{j'} \label{tres}
-\end{align}
+\end{align}\
 
-Ahora, expresando el vector unitario $\hat{i}$ en términos de los vectores unitarios $\hat{i}'$ y $\hat{j}'$. Se procede de la misma manera con el vector unitario $\hat{j}$.
+Expresando el vector unitario $\hat{i}$ y $\hat{j}$ en términos de los vectores unitarios $\hat{i}'$ y $\hat{j}'$, se obtiene que la ecuación \ref{dos} podría escribirse como: 
 %
-\begin{align}
-	\hat{i} = \hat{i}' \cos \theta_{x-x'} +  \hat{j}' \cos \theta_{x-y'} \label{cuatro}\\
-	\hat{j} = \hat{i}' \cos \theta_{y-x'} +  \hat{j}' \cos \theta_{y-y'} \label{cinco}
-\end{align}
-%
-Reemplazando las ecuaciones \ref{cuatro} y \ref{cinco} en la ecuación \ref{dos}:
-%
+%\begin{align}
+%	\hat{i} = \hat{i}' \cos \theta_{x-x'} +  \hat{j}' \cos \theta_{x-y'} \label{cuatro}\\
+%	\hat{j} = \hat{i}' \cos \theta_{y-x'} +  \hat{j}' \cos \theta_{y-y'} \label{cinco}
+%\end{align}
+%%
+%Reemplazando las ecuaciones \ref{cuatro} y \ref{cinco} en la ecuación \ref{dos}:
+
 \begin{align*}
 	\overset{\rightarrow}{V} = V_x \left( \hat{i}' \cos \theta_{x-x'} + \hat{j}' \cos \theta_{x-y'} \right) + V_y \left( \hat{i}' \cos \theta_{y-x'} + \hat{j}' \cos \theta_{y-y'} \right)
-\end{align*}
-%
+\end{align*} \
+
 Reorganizando los términos:
 %
 \begin{align}
 	\overset{\rightarrow}{V} = \left( V_x \cos \theta_{x-x'} + V_y \cos \theta_{y-x'} \right) \hat{i}'+ \left( V_x \cos \theta_{x-y'} + V_y \cos \theta_{y-y'} \right) \hat{j}' \label{seis}
 \end{align}
 %
-Ahora reemplazando las ecuaciones \ref{seis} y \ref{tres} en la ecuación \ref{uno}:
+Reemplazando las ecuaciones \ref{seis} y \ref{tres} en la ecuación \ref{uno}:
 %
 \begin{align}
 	\left( V_x \cos \theta_{x-x'} + V_y \cos \theta_{y-x'} \right) \hat{i}'+ \left( V_x \cos \theta_{x-y'} + V_y \cos \theta_{y-y'} \right) \hat{j}' = V_{x'} \hat{i}' + V_{y'} \hat{j}' \label{siete}
 \end{align}
 %
-Ambos lados de la ecuación \ref{siete} contiene términos que dependen de $\hat{i}'$
-y $\hat{j}'$. Igualando los términos que dependen de $\hat{i}'$ y los que dependen de $\hat{j}'$, llegamos a:
+Como puede verse ambos lados de la ecuación \ref{siete} contiene términos que dependen de $\hat{i}'$
+y $\hat{j}'$. Igualando los términos que dependen de $\hat{i}'$ y los que dependen de $\hat{j}'$, se obtiene el sistema formado por las ecuaciones \ref{ocho} y \ref{nueve} :
 %
 \begin{align}
 	V_x \cos \theta_{x-x'} + V_y \cos \theta_{y-x'} = V_{x'} \label{ocho}\\
 	V_x \cos \theta_{x-y'} + V_y \cos \theta_{y-y'} = V_{y'} \label{nueve}
 \end{align}
 %
-Las ecuaciones \ref{ocho} y \ref{nueve} las expresamos matricialmente:
+%Las ecuaciones \ref{ocho} y \ref{nueve} las expresamos matricialmente:
+Expresando matricialmente: 
 %
 \begin{eqnarray}
 		\left[ \begin{array}{c} V_{x'} \\
@@ -231,10 +232,31 @@ En la ecuación \ref{diez} se identifican los siguientes elementos:
 	\end{array} \right] \label{once}
 \end{align}
 %
-La  ecuación \ref{once} corresponde a la matriz de transformación, la cual nos permite representar entidades físico-matemáticas, descritas en el sistema de referencia $x-y$, en el sistema de referencia $x'-y'$.\\\\
+La  ecuación \ref{once} corresponde a la matriz de transformación, la cual permite representar entidades físico-matemáticas, descritas en el sistema de referencia $x-y$, en el sistema de referencia $x'-y'$.\\\\
+
+Por otra parte, si lo que se conoce es el vector en el sistema de referencia $x'-y'$ y se quire  expresar en el sistema de referencia $x-y$, solo es necesario realizar manipulaciones matemáticas simples sobre la ecuación \ref{diez}.\\
+%
+Reescribiendo la ecuación \ref{diez}:
+%
+\begin{align*}
+	\left[ V' \right] = \left[ T \right] \left[ V \right]
+\end{align*}
+%
+Premultiplicando la ecuación \ref{diez} por la inversa de la matriz de transformación:
+%
+\begin{align*}
+	\left[ T \right]^{-1} \left[ V' \right] = \left[ T \right]^{-1} \left[ T \right] \left[ V \right]
+\end{align*}
+%
+Ya que $\left[ T \right]$ es una matriz de transformación entre dos sistemas de referencia ortogonales, se tiene que $\left[ T \right]^{-1} = \left[ T \right]^T$. Además, se tiene que $\left[ T \right] \left[ T \right]^T = \left[ I \right]$ y que $\left[ I \right] \left[ V \right] = \left[ V \right]$.
+%
+\begin{align}
+	\left[ V \right] = \left[ T \right]^T \left[ V' \right] \label{doce}
+\end{align}
+%
+La ecuación \ref{doce} permite expresar el vector $\overset{\rightarrow}{V'}$ del sistema de referencia $x'-y'$ en el sistema de referencia $x-y$.\\\\
 %
 ¿Cómo leer y/o hallar la matriz de transformación $\left[ T \right]$?.\\\\
-%
 Lectura de columnas:
 %
 \begin{itemize}
@@ -257,39 +279,17 @@ Lectura de filas:
 	\end{array} \right]$, vector que contiene los cosenos de los ángulos entre los ejes $x$ y $y'$ y entre los ejes $y$ y $y'$ (ver figura \ref{planteamiento}).
 \end{itemize}
 %
-Si lo que conocemos es el vector en el sistema de referencia $x'-y'$ y lo queremos expresar en el sistema de referencia $x-y$, solo es necesario realizar manipulaciones matemáticas simples sobre la ecuación \ref{diez}.\\
-%
-Reescribiendo la ecuación \ref{diez}:
-%
-\begin{align*}
-	\left[ V' \right] = \left[ T \right] \left[ V \right]
-\end{align*}
-%
-Premultiplicamos la ecuación \ref{diez} por la inversa de la matriz de transformación:
-%
-\begin{align*}
-	\left[ T \right]^{-1} \left[ V' \right] = \left[ T \right]^{-1} \left[ T \right] \left[ V \right]
-\end{align*}
-%
-Ya que $\left[ T \right]$ es una matriz de transformación entre dos sistemas de referencia ortogonales, se tiene que $\left[ T \right]^{-1} = \left[ T \right]^T$. Además, se tiene que $\left[ T \right] \left[ T \right]^T = \left[ I \right]$ y que $\left[ I \right] \left[ V \right] = \left[ V \right]$.
-%
-\begin{align}
-	\left[ V \right] = \left[ T \right]^T \left[ V' \right] \label{doce}
-\end{align}
-%
-La ecuación \ref{doce} nos permite expresar el vector $\overset{\rightarrow}{V'}$ del sistema de referencia $x'-y'$ en el sistema de referencia $x-y$.\\\\
-%
 {\bf Nota importante: } Se utiliza la función trigonométrica {\it{Coseno}} pues esta es una función par y por ende no importa el signo del ángulo entre los ejes.\\
 $\cos \left( -\theta \right) = \cos \left( \theta \right)$.\\\\
 
 
 \section{Desarrollo del problema $3D$}
 %
-En la figura \ref{directores} se presenta el vector a transformar, denominado $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y-z$ y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'-z'$.\\
-%
-En las figuras \ref{vector13d} y \ref{vector23d} se presenta dicho vector en cada sistema de referencia. En las figuras \ref{vector1comp3d} y \ref{vector2comp3d} se presenta el vector en cada sistema de referencia junto con sus proyecciones escalares sobre los ejes de cada sistema de referencia.\\\\
+El caso tridimensional $(3D)$ no es nada más que una extensión del caso bidimensional $(2D)$, por lo cual en este documento solo se muestra que se le debe adicionar a las ecuaciones descritas en el caso $(2D)$. 
 
-\begin{figure}[h]
+En la figura \ref{directores} se presenta el vector a transformar, denominado $\overset{\rightarrow}{V}$ en el sistema de referencia $x-y-z$ y $\overset{\rightarrow}{V'}$ en el sistema de referencia $x'-y'-z'$. En las figuras \ref{vector13d} y \ref{vector23d} se presenta dicho vector en cada sistema de referencia y en las figuras \ref{vector1comp3d} y \ref{vector2comp3d} se presenta el vector junto con sus proyecciones escalares.\\\\
+
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}[l]{0.450\textwidth}
 		\includegraphics[width=\textwidth]{img/Vector13D.pdf}
@@ -324,9 +324,9 @@ En las figuras \ref{vector13d} y \ref{vector23d} se presenta dicho vector en cad
 %
 %
 %
-En la figura \ref{directorestodos} se presentan los ángulos entre los ejes del sistema de referencia $x-y-z$ y el sistema de referencia $x'-y'-z'$ , cosenos directores, junto con los vectores unitarios de cada base ortogonal $\left( \hat{i}, \hat{j}, \hat{k} \right)$ y $\left( \hat{i}', \hat{j}', \hat{k}' \right)$.\\\\
+En la figura \ref{directorestodos} se presentan los ángulos entre los ejes del sistema de referencia $x-y-z$ y el sistema de referencia $x'-y'-z'$ , junto con los vectores unitarios de cada base ortogonal $\left( \hat{i}, \hat{j}, \hat{k} \right)$ y $\left( \hat{i}', \hat{j}', \hat{k}' \right)$.\\\\
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}[l]{0.450\textwidth}
 		\includegraphics[width=\textwidth]{img/CosenosX3D.pdf}
@@ -355,7 +355,7 @@ En la figura \ref{directorestodos} se presentan los ángulos entre los ejes del 
 %
 %
 %
-El caso tridimensional $(3D)$ no es nada más que una extensión del caso bidimensional $(2D)$, por lo cual en este documento solo se muestra que se le debe adicionar a las ecuaciones descritas en el caso $(2D)$.
+
 %
 \begin{itemize}
 	\item \begin{large}$\theta_{x-x'}$\end{large}: Ángulo entre el eje $x$ y el eje $x'$
@@ -371,7 +371,7 @@ El caso tridimensional $(3D)$ no es nada más que una extensión del caso bidime
 	\item \begin{large}$\hat{i}'$, $\hat{j}'$, $\hat{k}'$\end{large}: Vectores unitarios bases del sistema de referencia $x'-y'-z'$.
 \end{itemize}
 %
-Reescribiendo la ecuación \ref{diez}:
+Por similitud a la ecuación \ref{diez} del caso bidimensional, se tiene: 
 %
 \begin{eqnarray}
 		\left[ \begin{array}{c} V_{x'} \\
